@@ -20,6 +20,7 @@ const Button = ({
   lectures,
   textWeight,
   lecturesHeader,
+  handleClick,
 }) => {
   const [showModal, setShowModal] = useState(false);
 
@@ -27,15 +28,15 @@ const Button = ({
     ref !== "" && ref.current.scrollIntoView({ behavior: "smooth" });
   };
 
-  const handleClick = () => {
-    if (text === "Watch Promo") {
-      setShowModal(true);
-    } else if (text === "Start" && !isProMember) {
-      return;
-    } else {
-      scrollToSection(planRef);
-    }
-  };
+  // const handleClick = () => {
+  //   if (text === "Watch Promo") {
+  //     setShowModal(true);
+  //   } else if (text === "Start" && !isProMember) {
+  //     return;
+  //   } else {
+  //     scrollToSection(planRef);
+  //   }
+  // };
 
   const textSizeVal = textSize ? textSize : "18px";
 
