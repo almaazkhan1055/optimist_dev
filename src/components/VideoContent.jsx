@@ -2,7 +2,7 @@ import { LuTvMinimalPlay } from "react-icons/lu";
 import Button from "./Button";
 
 export const VideoContent = ({ chapter, onNextLecture }) => (
-  <div className="flex-1 py-10 flex flex-col items-center gap-4">
+  <div className="flex-1 py-10 pt-[70px] flex flex-col items-center gap-4">
     {chapter && (
       <div className="p-4">
         <h3 className="text-2xl font-semibold mb-4 flex items-center gap-5">

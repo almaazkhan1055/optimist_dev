@@ -40,7 +40,9 @@ const CourseCurriculum = ({ courseCurriculumData }) => {
                       onClick={() => handleCourseCurriculumClick(chapter)}
                     >
                       <li className="flex items-center gap-2">
-                        <FaPlay />
+                        <span>
+                          <FaPlay />
+                        </span>
                         {chapter?.title}
                         <span>
                           ({chapter?.timeLength?.minutes}:

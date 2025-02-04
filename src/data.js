@@ -375,6 +375,107 @@ export const data = {
         },
         trailer:
           "https://videos.pexels.com/video-files/4974708/4974708-hd_1920_1080_25fps.mp4",
+        courseCurriculumData: [
+          {
+            title: "Getting Started",
+            chapters: [
+              {
+                title: "Welcome to the Course",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "08",
+                },
+                btnText: "Preview",
+                id: 1,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6804706/6804706-uhd_2732_1440_25fps.mp4",
+              },
+              {
+                title: "What Is React? And Why Would You Use It?",
+                timeLength: {
+                  minutes: 2,
+                  seconds: 58,
+                },
+                btnText: "Preview",
+                id: 2,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/8275951/8275951-hd_1920_1080_30fps.mp4",
+              },
+              {
+                title: "ReactJS vs Vanilla JavaScript",
+                timeLength: {
+                  minutes: 10,
+                  seconds: 57,
+                },
+                btnText: "Preview",
+                id: 3,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/11274330/11274330-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "Editing Our First React App",
+                timeLength: {
+                  minutes: 4,
+                  seconds: 22,
+                },
+                btnText: "Preview",
+                id: 4,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989682/7989682-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+          {
+            title: "JavaScript Refresher",
+            chapters: [
+              {
+                title: "Module Introduction ",
+                timeLength: {
+                  minutes: 1,
+                  seconds: 49,
+                },
+                btnText: "Start",
+                id: 5,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989701/7989701-hd_1920_1080_25fps.mp4",
+              },
+              {
+                title: "Starting Project",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "00",
+                },
+                btnText: "Start",
+                id: 6,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/28320042/12359943_1920_1080_24fps.mp4",
+              },
+              {
+                title:
+                  "Adding JavaScript To A Page & How React Projects Differ",
+                timeLength: {
+                  minutes: 6,
+                  seconds: 57,
+                },
+                btnText: "Start",
+                id: 7,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6258102/6258102-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "React Projects Use a Build Process",
+                timeLength: {
+                  minutes: 8,
+                  seconds: "04",
+                },
+                btnText: "Start",
+                id: 8,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989469/7989469-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+        ],
       },
       {
         id: 3,
@@ -510,6 +611,208 @@ export const data = {
         },
         trailer:
           "https://videos.pexels.com/video-files/5474324/5474324-uhd_2732_1440_25fps.mp4",
+        courseCurriculumData: [
+          {
+            title: "Getting Started",
+            chapters: [
+              {
+                title: "Welcome to the Course",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "08",
+                },
+                btnText: "Preview",
+                id: 1,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6804706/6804706-uhd_2732_1440_25fps.mp4",
+              },
+              {
+                title: "What Is React? And Why Would You Use It?",
+                timeLength: {
+                  minutes: 2,
+                  seconds: 58,
+                },
+                btnText: "Preview",
+                id: 2,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/8275951/8275951-hd_1920_1080_30fps.mp4",
+              },
+              {
+                title: "ReactJS vs Vanilla JavaScript",
+                timeLength: {
+                  minutes: 10,
+                  seconds: 57,
+                },
+                btnText: "Preview",
+                id: 3,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/11274330/11274330-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "Editing Our First React App",
+                timeLength: {
+                  minutes: 4,
+                  seconds: 22,
+                },
+                btnText: "Preview",
+                id: 4,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989682/7989682-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+          {
+            title: "JavaScript Refresher",
+            chapters: [
+              {
+                title: "Module Introduction ",
+                timeLength: {
+                  minutes: 1,
+                  seconds: 49,
+                },
+                btnText: "Start",
+                id: 5,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989701/7989701-hd_1920_1080_25fps.mp4",
+              },
+              {
+                title: "Starting Project",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "00",
+                },
+                btnText: "Start",
+                id: 6,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/28320042/12359943_1920_1080_24fps.mp4",
+              },
+              {
+                title:
+                  "Adding JavaScript To A Page & How React Projects Differ",
+                timeLength: {
+                  minutes: 6,
+                  seconds: 57,
+                },
+                btnText: "Start",
+                id: 7,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6258102/6258102-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "React Projects Use a Build Process",
+                timeLength: {
+                  minutes: 8,
+                  seconds: "04",
+                },
+                btnText: "Start",
+                id: 8,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989469/7989469-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+        ],
+        courseCurriculumData: [
+          {
+            title: "Getting Started",
+            chapters: [
+              {
+                title: "Welcome to the Course",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "08",
+                },
+                btnText: "Preview",
+                id: 1,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6804706/6804706-uhd_2732_1440_25fps.mp4",
+              },
+              {
+                title: "What Is React? And Why Would You Use It?",
+                timeLength: {
+                  minutes: 2,
+                  seconds: 58,
+                },
+                btnText: "Preview",
+                id: 2,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/8275951/8275951-hd_1920_1080_30fps.mp4",
+              },
+              {
+                title: "ReactJS vs Vanilla JavaScript",
+                timeLength: {
+                  minutes: 10,
+                  seconds: 57,
+                },
+                btnText: "Preview",
+                id: 3,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/11274330/11274330-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "Editing Our First React App",
+                timeLength: {
+                  minutes: 4,
+                  seconds: 22,
+                },
+                btnText: "Preview",
+                id: 4,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989682/7989682-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+          {
+            title: "JavaScript Refresher",
+            chapters: [
+              {
+                title: "Module Introduction ",
+                timeLength: {
+                  minutes: 1,
+                  seconds: 49,
+                },
+                btnText: "Start",
+                id: 5,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989701/7989701-hd_1920_1080_25fps.mp4",
+              },
+              {
+                title: "Starting Project",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "00",
+                },
+                btnText: "Start",
+                id: 6,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/28320042/12359943_1920_1080_24fps.mp4",
+              },
+              {
+                title:
+                  "Adding JavaScript To A Page & How React Projects Differ",
+                timeLength: {
+                  minutes: 6,
+                  seconds: 57,
+                },
+                btnText: "Start",
+                id: 7,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6258102/6258102-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "React Projects Use a Build Process",
+                timeLength: {
+                  minutes: 8,
+                  seconds: "04",
+                },
+                btnText: "Start",
+                id: 8,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989469/7989469-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+        ],
       },
       {
         id: 4,
@@ -638,7 +941,109 @@ export const data = {
         },
         trailer:
           "https://videos.pexels.com/video-files/7534244/7534244-sd_640_360_25fps.mp4",
+        courseCurriculumData: [
+          {
+            title: "Getting Started",
+            chapters: [
+              {
+                title: "Welcome to the Course",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "08",
+                },
+                btnText: "Preview",
+                id: 1,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6804706/6804706-uhd_2732_1440_25fps.mp4",
+              },
+              {
+                title: "What Is React? And Why Would You Use It?",
+                timeLength: {
+                  minutes: 2,
+                  seconds: 58,
+                },
+                btnText: "Preview",
+                id: 2,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/8275951/8275951-hd_1920_1080_30fps.mp4",
+              },
+              {
+                title: "ReactJS vs Vanilla JavaScript",
+                timeLength: {
+                  minutes: 10,
+                  seconds: 57,
+                },
+                btnText: "Preview",
+                id: 3,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/11274330/11274330-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "Editing Our First React App",
+                timeLength: {
+                  minutes: 4,
+                  seconds: 22,
+                },
+                btnText: "Preview",
+                id: 4,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989682/7989682-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+          {
+            title: "JavaScript Refresher",
+            chapters: [
+              {
+                title: "Module Introduction ",
+                timeLength: {
+                  minutes: 1,
+                  seconds: 49,
+                },
+                btnText: "Start",
+                id: 5,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989701/7989701-hd_1920_1080_25fps.mp4",
+              },
+              {
+                title: "Starting Project",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "00",
+                },
+                btnText: "Start",
+                id: 6,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/28320042/12359943_1920_1080_24fps.mp4",
+              },
+              {
+                title:
+                  "Adding JavaScript To A Page & How React Projects Differ",
+                timeLength: {
+                  minutes: 6,
+                  seconds: 57,
+                },
+                btnText: "Start",
+                id: 7,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6258102/6258102-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "React Projects Use a Build Process",
+                timeLength: {
+                  minutes: 8,
+                  seconds: "04",
+                },
+                btnText: "Start",
+                id: 8,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989469/7989469-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+        ],
       },
+
       {
         id: 5,
         slug: "angular-the-complete-guide",
@@ -770,6 +1175,107 @@ export const data = {
         },
         trailer:
           "https://videos.pexels.com/video-files/6962343/6962343-hd_1920_1080_25fps.mp4",
+        courseCurriculumData: [
+          {
+            title: "Getting Started",
+            chapters: [
+              {
+                title: "Welcome to the Course",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "08",
+                },
+                btnText: "Preview",
+                id: 1,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6804706/6804706-uhd_2732_1440_25fps.mp4",
+              },
+              {
+                title: "What Is React? And Why Would You Use It?",
+                timeLength: {
+                  minutes: 2,
+                  seconds: 58,
+                },
+                btnText: "Preview",
+                id: 2,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/8275951/8275951-hd_1920_1080_30fps.mp4",
+              },
+              {
+                title: "ReactJS vs Vanilla JavaScript",
+                timeLength: {
+                  minutes: 10,
+                  seconds: 57,
+                },
+                btnText: "Preview",
+                id: 3,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/11274330/11274330-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "Editing Our First React App",
+                timeLength: {
+                  minutes: 4,
+                  seconds: 22,
+                },
+                btnText: "Preview",
+                id: 4,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989682/7989682-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+          {
+            title: "JavaScript Refresher",
+            chapters: [
+              {
+                title: "Module Introduction ",
+                timeLength: {
+                  minutes: 1,
+                  seconds: 49,
+                },
+                btnText: "Start",
+                id: 5,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989701/7989701-hd_1920_1080_25fps.mp4",
+              },
+              {
+                title: "Starting Project",
+                timeLength: {
+                  minutes: 1,
+                  seconds: "00",
+                },
+                btnText: "Start",
+                id: 6,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/28320042/12359943_1920_1080_24fps.mp4",
+              },
+              {
+                title:
+                  "Adding JavaScript To A Page & How React Projects Differ",
+                timeLength: {
+                  minutes: 6,
+                  seconds: 57,
+                },
+                btnText: "Start",
+                id: 7,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/6258102/6258102-uhd_2560_1440_25fps.mp4",
+              },
+              {
+                title: "React Projects Use a Build Process",
+                timeLength: {
+                  minutes: 8,
+                  seconds: "04",
+                },
+                btnText: "Start",
+                id: 8,
+                chapter_src:
+                  "https://videos.pexels.com/video-files/7989469/7989469-hd_1920_1080_25fps.mp4",
+              },
+            ],
+          },
+        ],
       },
       {
         id: 6,

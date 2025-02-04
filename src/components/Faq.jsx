@@ -21,12 +21,12 @@ const Faq = ({ faqData }) => {
       <div className="my-5 flex flex-col gap-5 px-5 sm:px-10">
         {faqData?.questions?.map((obj, index) => (
           <div key={index} className="border-b pb-3">
-            <div className="flex items-center justify-between">
+            <div
+              className="flex items-center justify-between"
+              onClick={() => handleQuestionAccordian(index)}
+            >
               <h4 className="text-[22px] font-semibold">{obj?.question}</h4>
-              <button
-                className="text-lg"
-                onClick={() => handleQuestionAccordian(index)}
-              >
+              <button className="text-lg">
                 {questionIndex === index ? <FaAngleUp /> : <FaAngleDown />}
               </button>
             </div>

@@ -7,13 +7,13 @@ export const ChapterItem = ({ chapter, isActive, onClick }) => (
     }`}
     onClick={onClick}
   >
-    <FaCircleHalfStroke size={18} color="#6b1acd" />
-    <div>
-      <span className="text-sm">{chapter?.title}</span>{" "}
-      <span>
-        ({chapter?.timeLength?.minutes || "00"}:
-        {chapter?.timeLength?.seconds || "00"})
-      </span>
-    </div>
+    <span>
+      <FaCircleHalfStroke size={18} color="#6b1acd" />
+    </span>
+    <span className="text-sm">{chapter?.title}</span>{" "}
+    <span>
+      ({chapter?.timeLength?.minutes || "00"}:
+      {chapter?.timeLength?.seconds || "00"})
+    </span>
   </div>
 );
