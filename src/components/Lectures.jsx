@@ -9,7 +9,8 @@ import { VideoContent } from "./VideoContent";
 
 const Lectures = ({ singleCourseData }) => {
   const [mobileCourseListToggle, setMobileCourseListToggle] = useState(false);
-  const { slug } = useParams();
+  const { slug, id } = useParams();
+
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const location = useLocation();
@@ -30,18 +31,34 @@ const Lectures = ({ singleCourseData }) => {
   }, []);
 
   const handleLectureChange = (chapter) => {
+    console.log("chapter", chapter);
     setMobileCourseListToggle(false);
     if (!chapter) return;
     dispatch(setChapterClicked(chapter));
+    console.log("chapter", chapter);
+
     navigate(
       `${location.pathname.split("/").slice(0, -1).join("/")}/${chapter.id}`
     );
   };
 
   const nextLecture = () => {
-    const pathSegments = location.pathname.split("/");
-    const newLecture = (parseInt(pathSegments.pop().match(/\d+/), 10) || 0) + 1;
-    navigate([...pathSegments, newLecture].join("/"));
+    let nextLectureId = parseInt(id) + 1;
+    if (
+      nextLectureId <=
+      course.courseCurriculumData.flatMap((course) => course.chapters).length
+    ) {
+      const filteredObject = course.courseCurriculumData
+        .flatMap((course) => course.chapters)
+        .find((chapter) => chapter.id === nextLectureId);
+      dispatch(setChapterClicked(filteredObject));
+      navigate(
+        `${location.pathname
+          .split("/")
+          .slice(0, -1)
+          .join("/")}/${nextLectureId}`
+      );
+    }
   };
 
   return (
